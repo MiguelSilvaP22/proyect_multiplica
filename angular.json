@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "proyect-multiplica": {
+    "proyectMultiplica": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/proyect-multiplica",
+            "outputPath": "dist/proyectMultiplica",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -66,18 +66,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "proyect-multiplica:build"
+            "browserTarget": "proyectMultiplica:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "proyect-multiplica:build:production"
+              "browserTarget": "proyectMultiplica:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "proyect-multiplica:build"
+            "browserTarget": "proyectMultiplica:build"
           }
         },
         "test": {
@@ -114,15 +114,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "proyect-multiplica:serve"
+            "devServerTarget": "proyectMultiplica:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "proyect-multiplica:serve:production"
+              "devServerTarget": "proyectMultiplica:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "proyect-multiplica"
+  "defaultProject": "proyectMultiplica"
 }

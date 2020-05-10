@@ -1,0 +1,13 @@
+.tittle {
+    width: 100%;
+    span {
+        width: 100%;
+        text-align: center;
+        background: -webkit-linear-gradient(left, #E2583E ,#BF1932,#9B1B30, #E2583E, #98B2D1, #F0C05A);
+        background: -o-linear-gradient(right,#E2583E ,#BF1932,#9B1B30, #E2583E, #98B2D1, #F0C05A);
+        background: -moz-linear-gradient(right, #E2583E ,#BF1932,#9B1B30, #E2583E, #98B2D1, #F0C05A);
+        background: linear-gradient(to right,  #E2583E ,#BF1932,#9B1B30, #E2583E, #98B2D1, #F0C05A);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}

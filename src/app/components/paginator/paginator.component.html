@@ -1,17 +1,16 @@
 
 
 <div class="paginator d-flex justify-content-between">
-    <div class="prev" (click)="previous()">
+    <div class="prev" (click)="previous()" [ngClass]="{'disabled': (this.pages.page < this.pages.total_pages)}">
         <p>
             <i class="fas fa-chevron-left"></i>
             Anterior
         </p>
 
     </div>
-    <div class="next"  (click)="next()">
+    <div class="next"  (click)="next()"  [ngClass]="{'disabled': (pages.page > 1)}">
         <p>Siguiente 
             <i class="fas fa-chevron-right"></i>
-
         </p>
     </div>
 </div>

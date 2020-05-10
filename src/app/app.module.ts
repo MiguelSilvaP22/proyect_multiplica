@@ -11,8 +11,8 @@ import { PaginatorComponent } from './components/paginator/paginator.component';
 
 
 // Material
-import {MatCardModule} from '@angular/material/card'; 
-import {MatPaginatorModule} from '@angular/material/paginator'; 
+import { MatCardModule } from '@angular/material/card';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 // ngx-clipboard
 import { ClipboardModule } from 'ngx-clipboard';
@@ -32,8 +32,8 @@ import { ClipboardModule } from 'ngx-clipboard';
     BrowserAnimationsModule,
     MatCardModule,
     ClipboardModule,
-    MatPaginatorModule
-    ],
+    MatToolbarModule
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })

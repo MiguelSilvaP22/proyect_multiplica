@@ -1,27 +1,20 @@
-# ProyectMultiplica
+>## Colores
+Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) version 9.1.3.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.3.
 
-## Development server
+>## Descripción
+Selección de colores, guardando estos en el portapeles del sistema, utilizando la api: (https://reqres.in/api/colors)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+>## Demo
+[http://167.99.106.28:3777/](http://167.99.106.28:3777/)
 
-## Code scaffolding
+>## Script
+Correr comando `npm i` y luego correr comando  `npm start ` para correr el sistema de forma local. 
+Entrar a la IP  `http://localhost:4200/`.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+>## Documentaciones Packetes implementados
+- [bootstrap](https://getbootstrap.com/)
+- [ngx-clipboard](https://github.com/maxisam/ngx-clipboard)
+- [fontawesome](https://fontawesome.com/how-to-use/on-the-web/setup/using-package-managers)
+- [Material-angular](https://material.angular.io/)

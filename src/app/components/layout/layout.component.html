@@ -1,0 +1,16 @@
+<div class="body container-fluid">
+    <div class="row">
+        <div class="tittle">
+        </div>
+    </div>
+
+    <div class="row colors">
+        <div class="color col-12 col-sm-6 col-md-4 col-lg-4" *ngFor="let color of colors"  >
+            <app-color [color]="color"></app-color>
+        </div>
+    </div>
+
+    <div class="pages mt-3">
+        <app-paginator [pages]="pages" (changePage)="changePage()"></app-paginator>
+    </div>
+</div>

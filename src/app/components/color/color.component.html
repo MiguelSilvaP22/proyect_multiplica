@@ -1,0 +1,19 @@
+<mat-card class="box d-flex" [ngStyle]="{'background-color': color.color}">
+
+	<div class="top">
+		<p>{{color.year}}</p>
+	</div>
+
+	<div class="center" (click)="copyColor()">
+		<div [ngClass]="{'esconder': copyingColor}">
+			<p class="name">{{color.name}} </p>
+			<p>{{color.color}} </p>
+		</div>
+
+		<p class="esconder" [ngClass]="{'mostrar': copyingColor, 'copyingColor': true}"> ! Copiado ¡ </p>
+	</div>
+
+	<div class="botom">
+		<p> {{color.pantone_value}}</p>
+	</div>
+</mat-card>

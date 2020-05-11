@@ -13,7 +13,7 @@ Correr comando `npm i` y luego correr comando  `npm start ` para correr el siste
 Entrar a la IP  `http://localhost:4200/`.
 
 
->## Documentaciones Packetes implementados
+>## Documentaciones Paquetes implementados
 - [bootstrap](https://getbootstrap.com/)
 - [ngx-clipboard](https://github.com/maxisam/ngx-clipboard)
 - [fontawesome](https://fontawesome.com/how-to-use/on-the-web/setup/using-package-managers)
